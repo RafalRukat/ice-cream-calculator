@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maszyna do lodów</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+
+        input {
+            width: 40px;
+        }
+
+        .wrapper {
+            padding: 20px;
+
+        }
+
+        section+section {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-top: 10px
+        }
+
+        .result ul * {
+            font-weight: bolder;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="add">
+            <ul>
+                <li>Mleko: <span class="milk32">0</span> ml <input type="number" class="milk32"><button
+                        class="milk32">Dodaj</button>
+                </li>
+                <li>Śmietanka 30: <span class="cream30">0</span> ml <input type="number" class="cream30"><button
+                        class="cream30">Dodaj</button></li>
+                <li>Śmietanka 36: <span class="cream36">0</span> ml <input type="number" class="cream36"><button
+                        class="cream36">Dodaj</button></li>
+                <li>Mleko skondensowane: <span class="condensed-milk">0</span> ml <input type="number"
+                        class="condensed-milk"><button class="condensed-milk">Dodaj</button></li>
+                <li>Cukier: <span class="sugar">0</span> g <input type="number" class="sugar"><button
+                        class="sugar">Dodaj</button>
+                </li>
+                <li>Miód: <span class="honey">0</span> ml <input type="number" class="honey"><button
+                        class="honey">Dodaj</button></li>
+            </ul>
+        </section>
+        <section class="result">
+            <ul>
+                <li>
+                    Łączna masa: <span class="sum">0</span> g
+                </li>
+                <li>Tłuszcz: <span class="fat-percent">0</span>%</li>
+                <li>Cukier: <span class="sugar-percent">0</span>%</li>
+            </ul>
+
+
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
