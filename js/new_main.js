@@ -26,8 +26,6 @@ class Ingredient {
         const ingredientInput = document.createElement('input');
         inputsContainer.appendChild(ingredientInput);
         this.input = ingredientInput;
-        // ingredientInput.classList.add(inputClassName);
-        // Ustaw nasłuchiwanie na zmianę w inpucie
 
         // zabezpieczenie przed przecinkiem
         ingredientInput.addEventListener("keyup", () => {
