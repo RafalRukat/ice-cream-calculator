@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap');
 
 
-$main-color: cadetblue;
+$main-color: #5f9ea0;
 $default-font: 'arial', 'sans-serif';
 $special-font: 'PT Sans', 'roboto', arial, sans-serif;
 
@@ -29,4 +29,10 @@ html {
     font-size: 2rem;
     background-color: #fff;
     box-shadow: 0 0 4px 0 #000;
+}
+
+.logo {
+    flex-basis: 200px;
+    height: 160px;
+    background-color: #A89D5B
 }

@@ -8,7 +8,7 @@
 
 html {
   font-size: 10px;
-  background-color: cadetblue;
+  background-color: #5f9ea0;
   font-family: "arial", "sans-serif";
 }
 
@@ -24,5 +24,12 @@ html {
   background-color: #fff;
   -webkit-box-shadow: 0 0 4px 0 #000;
           box-shadow: 0 0 4px 0 #000;
+}
+
+.logo {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  height: 160px;
+  background-color: #A89D5B;
 }
 /*# sourceMappingURL=main.css.map */
