@@ -10,6 +10,7 @@ html {
   font-size: 10px;
   background-color: #5f9ea0;
   font-family: "arial", "sans-serif";
+  color: #fff;
 }
 
 .wrapper {
@@ -31,5 +32,42 @@ html {
       flex-basis: 200px;
   height: 160px;
   background-color: #A89D5B;
+}
+
+.search {
+  background-color: darkorange;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.settings {
+  background-color: darkred;
+  padding: 0 50px;
+}
+
+.menu {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: darkblue;
+}
+
+.articles {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  min-height: 50vh;
+  background-color: #1e474c;
+}
+
+.recipes {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: darkgoldenrod;
+}
+
+.footer {
+  background-color: darkblue;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,6 +2,7 @@
 
 
 $main-color: #5f9ea0;
+$mainFontColor: #fff;
 $default-font: 'arial', 'sans-serif';
 $special-font: 'PT Sans', 'roboto', arial, sans-serif;
 
@@ -16,15 +17,20 @@ html {
     font-size: 10px;
     background-color: $main-color;
     font-family: $default-font;
+    color: $mainFontColor;
 }
 
 .wrapper {
     // kontener
     display: flex;
     flex-wrap: wrap;
-    // pozycja
+    align-content: flex-end;
+    
+    // pozycja i rozmiary
     max-width: 1000px;
+    min-height: 100vh;
     margin: 0 auto;
+
     // wygląd 
     font-size: 2rem;
     background-color: #fff;
@@ -34,5 +40,37 @@ html {
 .logo {
     flex-basis: 200px;
     height: 160px;
-    background-color: #A89D5B
+    background-color: #A89D5B;
+}
+
+.search {
+    background-color: darkorange;
+    flex-grow: 1;
+
+}
+
+.settings {
+background-color: darkred;
+padding: 0 50px;
+}
+
+.menu {
+    flex-basis: 100%;
+    background-color: darkblue;
+}
+
+.articles {
+    flex-basis: 100%;
+    min-height: 50vh;
+    background-color: rgb(30, 71, 76);
+}
+
+.recipes {
+    flex-basis: 100%;
+    background-color: darkgoldenrod;
+}
+
+.footer {
+    background-color: darkblue;
+    flex-basis: 100%;
 }
