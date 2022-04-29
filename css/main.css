@@ -19,7 +19,10 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   max-width: 1000px;
+  min-height: 100vh;
   margin: 0 auto;
   font-size: 2rem;
   background-color: #fff;
@@ -30,7 +33,6 @@ html {
 .logo {
   -ms-flex-preferred-size: 200px;
       flex-basis: 200px;
-  height: 160px;
   background-color: #A89D5B;
 }
 
@@ -55,7 +57,6 @@ html {
 .articles {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  min-height: 50vh;
   background-color: #1e474c;
 }
 
@@ -69,5 +70,10 @@ html {
   background-color: darkblue;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+}
+
+.footer .calc {
+  color: goldenrod;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

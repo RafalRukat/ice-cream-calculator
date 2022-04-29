@@ -24,7 +24,7 @@ html {
     // kontener
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-end;
+    align-content: flex-start;
     
     // pozycja i rozmiary
     max-width: 1000px;
@@ -39,7 +39,7 @@ html {
 
 .logo {
     flex-basis: 200px;
-    height: 160px;
+    // height: 160px;
     background-color: #A89D5B;
 }
 
@@ -61,7 +61,7 @@ padding: 0 50px;
 
 .articles {
     flex-basis: 100%;
-    min-height: 50vh;
+    // min-height: 50vh;
     background-color: rgb(30, 71, 76);
 }
 
@@ -73,4 +73,8 @@ padding: 0 50px;
 .footer {
     background-color: darkblue;
     flex-basis: 100%;
+    .calc {
+        color: goldenrod;
+        text-decoration: none;
+    }
 }
