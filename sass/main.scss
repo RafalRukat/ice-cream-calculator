@@ -40,7 +40,12 @@ html {
 .logo {
     flex-basis: 200px;
     // height: 160px;
-    background-color: #A89D5B;
+    // background-color: #A89D5B;
+    &__image {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
 }
 
 .search {

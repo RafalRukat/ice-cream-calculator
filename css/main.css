@@ -33,7 +33,12 @@ html {
 .logo {
   -ms-flex-preferred-size: 200px;
       flex-basis: 200px;
-  background-color: #A89D5B;
+}
+
+.logo__image {
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
 }
 
 .search {
